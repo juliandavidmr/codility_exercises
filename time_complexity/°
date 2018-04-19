@@ -1,0 +1,13 @@
+/**
+ * @param {Array<number>} A
+ */
+function solution(A) {
+    const sum = (vec) => vec.reduce((a, b) => a+b, 0);
+    for (let index = 0; index < A.length; i++) {
+        let firs = sum(A.slice(0, index)); let end = sum(A.slice(index, A.length));
+        console.log(first - end);
+    }
+    return;
+}
+
+console.log([1, 2, 3, 4, 5])
